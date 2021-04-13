@@ -478,7 +478,9 @@ mark,
   max-width: 100%;
   height: auto; 
   background-color: white;
+  
 }
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -7757,6 +7759,10 @@ button.bg-dark:focus {
 .pb-5,
 .py-5 {
   padding-bottom: 3rem !important;
+  -webkit-filter: grayscale(1); /* Webkit */
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* W3C */
+opacity: 0.4;
 }
 
 .pl-5,
